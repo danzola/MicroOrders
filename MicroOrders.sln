@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroOrders.Services.Coupon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroOrder.Services.ProductAPI", "MicroOrder.Services.ProductAPI\MicroOrder.Services.ProductAPI.csproj", "{60B7EF52-CF56-4269-9251-7FBB283B84D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroOrders.Services.ShoppingCartAPI", "MicroOrders.Services.ShoppingCartAPI\MicroOrders.Services.ShoppingCartAPI.csproj", "{4D2FA40D-237D-4071-97ED-F2B7EEF46BAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{60B7EF52-CF56-4269-9251-7FBB283B84D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60B7EF52-CF56-4269-9251-7FBB283B84D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60B7EF52-CF56-4269-9251-7FBB283B84D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D2FA40D-237D-4071-97ED-F2B7EEF46BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D2FA40D-237D-4071-97ED-F2B7EEF46BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D2FA40D-237D-4071-97ED-F2B7EEF46BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D2FA40D-237D-4071-97ED-F2B7EEF46BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{65B8E8DA-2ADA-43C2-B4E1-73273ACE931A} = {8574D2F2-AE0C-47BA-A40F-A25CC586CB48}
 		{60B7EF52-CF56-4269-9251-7FBB283B84D6} = {8574D2F2-AE0C-47BA-A40F-A25CC586CB48}
+		{4D2FA40D-237D-4071-97ED-F2B7EEF46BAF} = {8574D2F2-AE0C-47BA-A40F-A25CC586CB48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3718D5C3-FC70-4EDA-AD06-C846A2B268CE}
