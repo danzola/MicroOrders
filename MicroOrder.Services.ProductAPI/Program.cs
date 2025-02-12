@@ -1,7 +1,5 @@
-using System.Reflection;
-using AutoMapper;
-using MicroOrders.Services.CouponAPI;
-using MicroOrders.Services.CouponAPI.Data;
+using MicroOrder.Services.ProductAPI;
+using MicroOrder.Services.ProductAPI.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
